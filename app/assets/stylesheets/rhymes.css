@@ -70,6 +70,7 @@ a.alp:hover img, a.alp:hover {
   visibility: hidden;
 }
 /* ------------------------------------------------------------------------------- */
+
 .rhymeUnit {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -81,6 +82,16 @@ a.alp:hover img, a.alp:hover {
   padding: 0 20px;
 }
 
+.rhymesContents {
+  margin-top: 130px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.rhymeC2{
+  margin-top: 100px;
+}
+
 .rhymeC1 .rhymeTxt, .rhymeC2 .rhymePht {
   float: right;
 }
@@ -89,18 +100,38 @@ a.alp:hover img, a.alp:hover {
   float: left;
 }
 
+.rhymeTxt {
+  width: 45.4%;
+}
+
+.rhymesContents p {
+  line-height: 1.8;
+}
+
+.rhymesContents p + p{
+  margin-top: 30px;
+}
 /* ------------------------------------------------------------------------------- */
 
 .slider{
-  margin: 100px auto;
-  width: 600px;
+  margin: 50px auto;
+  width: 900px;
 }
 .slider img{
-  height: auto;
+  height: 40vw;
   width: 100%;
+  object-fit: cover;
 }
 /*slick setting*/
 .slick-prev:before,
 .slick-next:before {
   color: #000;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.image {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: all 1s;
 }
