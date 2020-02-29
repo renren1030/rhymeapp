@@ -1,0 +1,106 @@
+* {
+  text-align: center;
+  list-style: none outside;
+  font-size: 100%;
+}
+
+html { 
+  margin: 0;
+  padding: 0;
+  font: normal normal normal 100% sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2ecdf;
+  font-family: "メイリオ", Meiryo "ヒラギノ角ゴ Pro W3", 'Hiragino Kaku Gothic ProN', Arial, Helvetica, sans-serif;
+  color: #564024;
+  -webkit-text-size-adjust: 100%;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, table, th, td, em, img {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+th, td {
+  vertical-align: top;
+}
+/*  */
+a:link {
+  text-decoration: none;
+  color: #0a7bb0;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0a7bb0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3344ee;
+}
+
+a.alp:hover img, a.alp:hover {
+  filter: alpha(opacity=80);
+  -moz-opacity: .80;
+  opacity: .80;
+}
+
+.rhymeBx {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.rhymeAC {
+ overflow: hidden;
+}
+
+.rhymeAC:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+}
+/* ------------------------------------------------------------------------------- */
+.rhymeUnit {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.rhymeC1 .rhymeTxt, .rhymeC2 .rhymePht {
+  float: right;
+}
+
+.rhymeC1 .rhymePht, .rhymeC2 .rhymeTxt{
+  float: left;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.slider{
+  margin: 100px auto;
+  width: 600px;
+}
+.slider img{
+  height: auto;
+  width: 100%;
+}
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
