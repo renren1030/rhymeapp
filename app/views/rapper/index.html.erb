@@ -1,13 +1,3 @@
 <h1>Rapper一覧</h1>
-  <div class="content">
-        <a class="js-modal-open" href="">R指定</a>
-    </div>
-    <div class="modal js-modal">
-        <div class="modal__bg js-modal-close"></div>
-        <div class="modal__content">
-            <%=image_tag "R.jpg" ,:class=>"img"%>
-            <p>あああああああああああああああああああ</p>
-            <a class="js-modal-close" href="">閉じる</a>
-        </div><!--modal__inner-->
-    </div><!--modal-->
-</ul>
+<%= render :partial => "lists" %>
+
