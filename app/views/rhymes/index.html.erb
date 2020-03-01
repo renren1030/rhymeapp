@@ -29,7 +29,7 @@
 <p>ラッパーが一対一でフリースタイルのスキルを競い合い、勝敗を付けることをいいます。</p>
 <p>主な大会は「UMB」「UMB」「戦極」「KOK」「凱旋」などがあります。</p>
 <p><%=link_to "どんな大会があるのか知りたい方はこちら" ,"https://note.com/chibakun/n/n43058bc12054"%></p>
-<p><%=link_to "イチオシのMCバトル一覧" ,"http://localhost/mcbattle.html.erb"%></p>
+<p><%=link_to "イチオシのMCバトル一覧" , battle_index_path%></p>
 </div>
 <div class="rhymePht">
 <%=image_tag "images_rhyme_02.jpg" ,:size =>'350x300',:class=>"image"%>
@@ -41,10 +41,22 @@
 <p>音源</p>
 <p>ラップはMCバトルだけではありません。</p>
 <p>それぞれのラッパーが自分の才能をフルに使って作った音源は当たり前ですが、やはり「かっこいい」です。</p>
-<p><%=link_to "イチオシの音源一覧" ,"music.html.erb"%></p>
+<p><%=link_to "イチオシの音源一覧" ,music_index_path%></p>
 </div>
 <div class="rhymePht">
 <%=image_tag "images_rhyme_03.jpg" ,:size =>'350x300',:class=>"image"%>
+</div>
+<!--/rhymeUnit --></div>
+
+<div class="rhymeUnit rhymeC2 rhymeAC">
+<div class="rhymeTxt">
+<p>MC</p>
+<p>そんなかっこいいラッパーたちを紹介します。</p>
+<p>ぜひ、音源と一緒に気になったラッパーをチェックしてみましょう。</p>
+<p><%=link_to "イチオシのMC一覧" ,rapper_index_path%></p>
+</div>
+<div class="rhymePht">
+<%=image_tag "images_rhyme_06.jpg" ,:size =>'350x400',:class=>"image"%>
 </div>
 <!--/rhymeUnit --></div>
 <!--/rhymeContents --></div>
