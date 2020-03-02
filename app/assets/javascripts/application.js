@@ -54,3 +54,10 @@ $(function(){
       return false;
   }); 
 });
+
+
+$(function(){
+  $(document).ready(function() {
+    $.slidebars();
+  });
+}) (jQuery);

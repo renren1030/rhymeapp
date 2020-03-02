@@ -3,15 +3,18 @@
         <a class="js-modal-open" href="" data-target="modal02">呂布カルマ</a><br>
         <a class="js-modal-open" href="" data-target="modal03">晋平太</a><br>
         <a class="js-modal-open" href="" data-target="modal04">SALU</a><br>
+        <a class="js-modal-open" href="" data-target="modal05">ZORN</a><br>
+        <a class="js-modal-open" href="" data-target="modal06">AKLO</a><br>
     </div>
      <div id="modal01" class="modal js-modal">
         <div class="modal__bg js-modal-close"></div>
         <div class="modal__content">
             <h1>R指定</h1>
-            <%=image_tag "R.jpg" ,:class=>"img"%><br>
+            <%=image_tag "Rshitei.jpg" ,:class=>"img"%><br>
             <a class="js-modal-close" href="">閉じる</a>
         </div><!--modal__inner-->
     </div><!--modal-->
+
     <div id="modal02" class="modal js-modal">
         <div class="modal__bg js-modal-close"></div>
         <div class="modal__content">
@@ -20,6 +23,7 @@
             <a class="js-modal-close" href="">閉じる</a>
         </div><!--modal__inner-->
     </div><!--modal-->
+
      <div id="modal03" class="modal js-modal">
         <div class="modal__bg js-modal-close"></div>
         <div class="modal__content">
@@ -28,6 +32,7 @@
             <a class="js-modal-close" href="">閉じる</a>
         </div><!--modal__inner-->
     </div><!--modal-->
+
     <div id="modal04" class="modal js-modal">
         <div class="modal__bg js-modal-close"></div>
         <div class="modal__content">
@@ -36,3 +41,23 @@
             <a class="js-modal-close" href="">閉じる</a>
         </div><!--modal__inner-->
     </div><!--modal-->
+
+     <div id="modal05" class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+        <div class="modal__content">
+            <h1>ZORN</h1>
+            <%=image_tag "zorn.jpeg" ,:class=>"img"%><br>
+            <a class="js-modal-close" href="">閉じる</a>
+        </div><!--modal__inner-->
+    </div><!--modal-->
+
+     <div id="modal06" class="modal js-modal">
+        <div class="modal__bg js-modal-close"></div>
+        <div class="modal__content">
+            <h1>AKLO</h1>
+            <%=image_tag "aklo.jpeg" ,:class=>"img"%><br>
+            <a class="js-modal-close" href="">閉じる</a>
+        </div><!--modal__inner-->
+    </div><!--modal-->
+  <%=link_to "ラッパーを追加する" ,rapper_new_path%><br>
+  <%=link_to "トップページへ戻る" ,rhymes_path%>
