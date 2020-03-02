@@ -1,5 +1,6 @@
 class RapperController < ApplicationController
   def index
+    @rappers = Rapper.all
   end
 
   def new

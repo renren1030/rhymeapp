@@ -59,5 +59,10 @@
             <a class="js-modal-close" href="">閉じる</a>
         </div><!--modal__inner-->
     </div><!--modal-->
+    <% @rappers.each do |rapper|%>
+      <%= rapper.name%>
+      <%= rapper.description%>
+      <%= rapper.image%>
+    <% end %>
   <%=link_to "ラッパーを追加する" ,new_rapper_path%><br>
   <%=link_to "トップページへ戻る" ,rhymes_path%>
