@@ -56,41 +56,19 @@ $(function(){
 });
 
 
-jQuery(document).ready(function(){
-  /*open*/
-  $('.header__icon').on('click',function(){
-    $('.sidebar').css(
-      'display','block'
-    ).animate({
-      left:'0'
-    }, 
-      300
-    );
-    $('.sidebar-bg').css(
-      'display','block'
-    ).animate({
-      opacity:'0.5'
-    },
-      300
-    )
-  });
-  /*close*/
-  $('.sidebar__icon').on('click',function(){
-    $('.sidebar').animate({
-      left:'-200px'
-    },
-      300
-    );
-    $('.sidebar-bg').animate({
-      opacity:'0'
-    },
-      300
-    );
-    setTimeout(function(){
-      $('.sidebar').css('display','none');
-      $('.sidebar-bg').css('display','none');
-    },
-      300
-    );
-  });
-});
+// const ham = document.getElementById('ham');
+// ham.addEventListener('click', function() {
+// 	alert('test');
+// });
+
+// ham.addEventListener('click', function() {
+// 	ham.classList.toggle('clicked');
+// });
+
+
+const ham = document.getElementById('ham');
+const menu_wrapper = document.getElementById('menu_wrapper');
+ham.addEventListener('click', function() {
+	ham.classList.toggle('clicked');
+	menu_wrapper.classList.toggle('clicked');
+});　
