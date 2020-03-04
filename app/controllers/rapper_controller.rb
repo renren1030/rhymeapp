@@ -10,11 +10,7 @@ class RapperController < ApplicationController
 
   def create
     @rapper = Rapper.create(rapper_params)
-    if @create.save
-      redirect_to rhymes_path
-    else
-      render action: :new
-    end
+    redirect_to rhymes_path
   end
 
   def edit
